@@ -1,0 +1,58 @@
+/* button Design */
+.create-blog-add-new-Data {
+    margin-right: 18px;
+}
+
+.add-new-catagory-btn {
+    cursor: pointer;
+    background-color:#fff;
+    border: 0;
+    box-shadow: none;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 10px 0px 10px 10px;
+    font-weight: 500;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    /* box-shadow: 0 .2rem .5rem rgba(0, 0, 0 , 0.3); */
+}
+
+.blog-catagory-main {
+    padding-top: 3;
+}
+
+.add-new-catagory-btn-extra {
+    cursor: pointer;
+    /* background-color:#fff; */
+    border: 0;
+    box-shadow: none;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 19px 0px 19px 10px;
+    font-weight: 500;
+    /* width: 100%; */
+    text-transform: uppercase;
+    display: flex;
+}
+
+/* add blog catagory design */
+.create-blog-catagory-sub-nagition-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.create-blog-catagory-sub-nagition-form-inner {
+    display: flex;
+    margin-bottom: 10px;
+    z-index: 1;
+    padding: 12px 10px;
+    width: 94%;
+    border-radius: 8px;
+}
+
+.add-blog-catagory-back-icon {
+    font-size: 20px;
+    color: var(--orange-color);
+}

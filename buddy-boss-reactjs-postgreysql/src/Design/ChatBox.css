@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.chat_input {
+  position: absolute;
+  width: 100%;
+  height: 62px;
+  background: #313639;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+
+}
+
+.chat_input .emoji-picker {
+  height: 200px;
+  position: absolute;
+  width: 100%;
+  padding: -5px 50px -50px 20px;
+  border: none;
+  outline: none;
+  margin: 0px 0px 25px -30px;
+  border-radius: 8px 8px 0px 0px;
+  bottom: 25px;
+  font-size: 0.6em;
+  background: var(--white_color);
+  word-wrap: break-word;
+}
+
+.chat_input i {
+  cursor: pointer;
+  color: var(--white_color);
+  padding: 5px 0px 5px 5px;
+}
+
+.chat_input i:nth-child(1) {
+  margin-right: 15px;
+}
+
+.chat_input input {
+  position: relative;
+  /* width:500%; */
+  width: 90%;
+  padding: 12px 12px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 0.6em;
+  background: #fff;
+}
+
+.break {
+  position: relative;
+}
+
+.chat_input .break {
+  height: 80%;
+  position: absolute;
+  width: 100%;
+  padding: -5px 50px 0px 20px;
+  border: none;
+  outline: none;
+  margin: 0px 0px 19px -97px;
+  border-radius: 8px 8px 0px 0px;
+  bottom: 25px;
+  font-size: 0.6em;
+  background: var(--white_color);
+  word-wrap: break-word;
+}
+
+
+.message_form_Send_btn {
+  background: var(--orange-color);
+  position: relative;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.message_form_Send_btn .message_form_send_icon {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  font-size: 20px;
+}
+
+.chat_input .break .new-box {
+  position: absolute;
+  width: 75%;
+  border-radius: 4px;
+  margin: 5px 0px 0px 80px;
+  padding: 2px 50px 2px 5px;
+  height: 80%;
+  background: var(--background_gray);
+  border-left: 4px solid var(--mychat_color);
+}
+
+
+.chatbox {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 25px 12px 25px 25px;
+  overflow-y: auto;
+}
+
+.message {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 5px -5px;
+}
+
+.message p {
+  position: relative;
+  right: 0;
+  text-align: right;
+  max-width: 50%;
+  word-wrap: break-word;
+  padding: 6px 9px 6px 9px;
+  background: var(--orange-color);
+  border-radius: 10px;
+  font-size: 0.7em;
+}
+
+.my_msg {
+  font-size: 18px;
+  color: #fff;
+  justify-content: flex-end;
+}
+
+.friend_msg {
+  font-size: 18px;
+  color: var(--dark_gray);
+  justify-content: flex-start;
+}
+
+
+.friend_msg p {
+  background-color: rgba(127, 154, 164, .2);
+  text-align: left;
+}

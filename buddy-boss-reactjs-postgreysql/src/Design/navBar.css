@@ -1,0 +1,208 @@
+/* @import url('https://fonts.googleapis.com/css2?family=inherit:wght@100;200;300;400;500;600;700&display=swap'); */
+
+:root {
+    --blur-color: rgb(27, 134, 192);
+    --border-color: rgb(198, 198, 198);
+    --orange-color: #e0623c;
+    --white-color: #fff;
+    --link-color: rgb(17, 110, 241);
+}
+
+body {
+    font-family: inherit;
+}
+
+/* header design */
+.outer-header {
+    z-index: 2;
+    width: 100%;
+    height: 70px;
+    background-color: #313639;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.3rem 1.5rem rgba(17, 17, 17, 0.3);
+    /* overflow: hidden; */
+}
+
+.outer-header-wrapper-main {
+    flex-direction: row;
+    display: flex;
+    position: absolute;
+    width:100%;
+}
+
+.outer-header .inner-header {
+    flex-direction: row;
+    display: flex;
+    position: absolute;
+    width: 95.5%;
+    /* height: 45%; */
+
+}
+
+.inner-header .site-header {
+    display: flex;
+    width: 21.5%;
+}
+
+.inner-header .site-header1 {
+    position: relative;
+    width: 57%;
+    height: auto;
+    /* background-color: rgb(132, 69, 69); */
+}
+
+.inner-header .site-header2 {
+    display: flex;
+    position: relative;
+    width: 30%;
+}
+
+/*  */
+
+
+/* logo component design */
+.site-header .logo-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.web-name {
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgb(215, 85, 85);
+    font-size: 19px;
+}
+
+
+
+/* content-component design */
+.site-header1 .content-component {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 83%;
+    margin-left: 45px;
+}
+
+.content-component .top_primary_navigation {
+    display: flex;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    justify-content: right;
+    font-size: 15px;
+    /* top: -2px; */
+    /* font-weight: 700; */
+}
+
+.top_primary_navigation div {
+    padding-left: 27px;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+}
+
+.top_primary_navigation div:hover {
+    color: var(--orange-color);
+}
+
+.content-component .bottom_secondary_navigation {
+    display: flex;
+    margin-top: 33.5px;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    font-size: 15px;
+    /* font-weight: 700; */
+    letter-spacing: -.23px;
+    /* background-color: rgb(58, 125, 184); */
+    justify-content: right;
+}
+
+.bottom_secondary_navigation div {
+    padding-left: 7px;
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.bottom_secondary_navigation div:hover {
+    color: var(--orange-color);
+}
+
+
+
+/* account handle component */
+.site-header2 .Account-handle-component {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+.Account-handle-component .my-account {
+    /* padding-top: 25px;
+    padding-right: 28px; */
+    font-size: 15px;
+    color: var(--orange-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Account-handle-component .btn-pricing {
+    margin-top: -11px;
+    font-size: 14px;
+    background-color: var(--orange-color);
+    padding: 5px 47px;
+    border-radius: 3px;
+    color: var(--white-color);
+    border: 5px solid var(--orange-color);
+}
+
+.btn-pricing-div {
+    padding-top: 25px;
+    box-shadow: 0 -2px 0 0 #b03510 inset;
+    margin-bottom: 10.5px;
+    border-radius: 3px;
+}
+
+/* media queryes to the first page user */
+@media only screen and (max-width: 850px) {}
+
+@media only screen and (max-width: 600px) {
+
+    .outer-header .inner-header {
+        width: 90%;
+    }
+
+    .inner-header .site-header1 {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}

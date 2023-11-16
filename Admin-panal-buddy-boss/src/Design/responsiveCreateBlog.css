@@ -1,0 +1,52 @@
+@media only screen and (max-width: 912px) {
+
+    .create-BLog-inner-wrapper-main .create-BLog-inner-wrapper-main-left {
+        display: none;
+    }
+
+    .create-BLog-inner-wrapper-main {
+        display: flex;
+        position: relative;
+        width: 100%;
+        min-height:calc(100% - 70px);
+        height: 100%;
+        background-color: rgba(127, 154, 164, .2);
+        height: auto;
+        box-shadow: 0 0.3rem 1.5rem rgb(227 194 175 / 30%);
+    }
+
+    .create-blog-navigation-bar-wrapper-inner {
+        display: flex;
+        justify-content: right;
+        position: relative;
+        max-width: 100%;
+        padding: 20px;
+        background-color: #313639;
+        box-shadow: 0 0.3rem 0.5rem rgba(39, 38, 38, 0.3)
+    }
+
+    .navigation-bar-menu-icon {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .create-BLog-inner-wrapper-main .create-BLog-inner-wrapper-main-right {
+        width: 99%;
+        margin: 20px  0px 20px 1px;
+    }
+
+    .buddy-boss-logo-createBlog-wrapper {
+        display: none;
+    }
+
+    .create-blog-navbar-create-item-wrapper {
+        display: flex;
+        justify-content: right;
+        right: 0;
+        top: 70px;
+        z-index: 5;
+        width: 60%;
+        background-color: #313639;
+        position: absolute;
+    }
+}

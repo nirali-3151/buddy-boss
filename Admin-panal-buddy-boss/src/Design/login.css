@@ -1,0 +1,277 @@
+.login-page-main-container {
+    display: flex;
+    justify-content: center;
+    /* height:550px; */
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('./../assets/Images/beck-ground-img-left.webp'), url('./../assets/Images/beck-ground-img-right.webp');
+}
+
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .login-page-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 400px;
+    background-color: aquamarine
+ } */
+
+.buddy-boss-logo-login-page-wrapper {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    /* height: 550px; */
+    /* background-color: aquamarine; */
+    justify-content: center;
+}
+
+.buddy-boss-logo-login-page {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    margin-top: 11px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.web-name1 {
+    padding: 28px 0px 0px 5px;
+    font-weight: bold;
+    color: #41476c;
+    font-size: 26px;
+}
+
+.login-header {
+    background-color: transparent;
+    border-left: 0;
+    box-shadow: none;
+    color: #000;
+    font-size: 20px;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    /* background-color: aliceblue; */
+    margin-bottom: 30px;
+}
+
+.main-input-feild-box-wrapper {
+    display: flex;
+    width: 400px;
+    height: 55%;
+    /* background-color: #4adb59; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.username-email-address {
+    /* background-color:rgb(146, 106, 106); */
+    width: 302px;
+    height: auto;
+    /* padding-bottom: -20px; */
+}
+
+.username-email-label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    /* margin-bottom: 3px; */
+}
+
+/* input[type=text] {
+    border: 5px solid var(--orange-color);
+    
+} */
+
+input:active, input:focus {
+    font-size: 13px;
+    border: 1px solid var(--orange-color);
+    outline: none;
+    background-color: rgba(127, 154, 164, .2);
+}
+
+.username-email-input {
+    display: flex;
+    background-color: rgba(127, 154, 164, .2);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 12px;
+    width: 92.6%;
+    height: 47px;
+    /* margin-bottom: 30px; */
+    margin-top: 10px;
+    padding: 0 12px
+}
+
+.remember-me-forgot-password {
+    width: 302px;
+    height: 30px;
+    /* background-color: #9dcea2; */
+    display: flex;
+    /* padding-left: 200px; */
+}
+
+.remember-me, .forgot-password {
+    font-size: 13px;
+    /* color: #709fce; */
+}
+
+.forgot-password {
+    cursor: pointer;
+    color: var(--link-color)
+}
+
+.remember-me {
+    padding-top: 2px;
+    padding-right: 70px;
+}
+
+.check-box-remember-me {
+    background-color: rgba(127, 154, 164, .2);
+    border-radius: 4px;
+    height: 15px;
+    text-align: center;
+    width: 15px;
+}
+
+.login-btn-wrapper {
+    width: 302px;
+    height: 40px;
+    /* background-color: #9dcea2; */
+    display: flex;
+}
+
+.login-btn {
+    cursor: pointer;
+    background-color: var(--orange-color);
+    border: 0;
+    box-shadow: none;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: auto;
+    line-height: 1;
+    padding: 12px 0px 12px 0px;
+    width: 150px;
+    text-shadow: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Register Page Design */
+.buddy-boss-logo-login-page-wrapper1 {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: center;
+}
+
+.register-header {
+    background-color: transparent;
+    border-left: 0;
+    box-shadow: none;
+    color: #000;
+    font-size: 20px;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.username-email-input1 {
+    display: flex;
+    background-color: rgba(127, 154, 164, .2);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 12px;
+    width: 92.6%;
+    height: 40px;
+    padding: 0 12px;
+    /* margin-bottom: -50px; */
+}
+
+.username-email-address1 {
+    /* display: flex; */
+    width: 302px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.remember-me-forgot-password1 {
+    width: 302px;
+    height: 30px;
+    /* background-color: #9dcea2; */
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.error {
+    position: absolute;
+    margin-left: 0px;
+    font-size: 10px;
+    color: red;
+}
+
+.initialData-popop {
+    z-index: 2;
+    min-width: 20%;
+    height: 50px;
+    position: absolute;
+    background-color: var(--orange-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    color: #fff;
+    font-size: large;
+    border-radius: 5px;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    .login-page-main-container {
+        background-image:none;
+        height: 600px;
+    } 
+
+    .username-email-address {
+        width: 302px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 350px) { 
+
+    .username-email-address {
+        width: 250px;
+        height: auto;
+    }
+
+    .login-btn-wrapper {
+        width: 250px;
+    }
+    .remember-me-forgot-password {
+        width: 250px;
+    }
+}
